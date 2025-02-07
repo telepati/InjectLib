@@ -1303,9 +1303,10 @@
     },
     {
       "packageName": "com.sids.displaybuddy",
+      "appBaseLocate": "/Applications/DisplayBuddy.app",
+      "injectFile": "Sparkle.framework/Versions/A/Sparkle",
       "needCopyToAppDir": true,
       "deepSignApp": true,
-      "injectFile": "Sparkle.framework/Versions/A/Sparkle",
       "tccutil": [
         "All"
       ]
