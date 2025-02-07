@@ -804,16 +804,6 @@
       "injectFile": "Paddle.framework/Versions/A/Paddle"
     },
     {
-      "packageName": "com.sids.displaybuddy",
-      "deepSignApp": true,
-      "needCopyToAppDir": true,
-      "noDeep": true,
-      "injectFile": "Sparkle.framework/Versions/A/Sparkle",
-      "tccutil": [
-        "All"
-      ]
-    },
-    {
       "packageName": "com.incrediblebee.Archiver4",
       "needCopyToAppDir": true,
       "deepSignApp": true,
@@ -1307,6 +1297,15 @@
       "noSignTarget": true,
       "autoHandleHelper": true,
       "helperFile": "/Contents/Library/LaunchServices/com.apphousekitchen.aldente-pro.helper",
+      "tccutil": [
+        "All"
+      ]
+    },
+    {
+      "packageName": "com.sids.displaybuddy",
+      "needCopyToAppDir": true,
+      "deepSignApp": true,
+      "injectFile": "Sparkle.framework/Versions/A/Sparkle",
       "tccutil": [
         "All"
       ]
