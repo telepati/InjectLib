@@ -1302,6 +1302,16 @@
       ]
     },
     {
+      "packageName": "com.sids.displaybuddy",
+      "appBaseLocate": "/Applications/DisplayBuddy.app",
+      "bridgeFile": "/Contents/MacOS/",
+      "needCopyToAppDir": true,
+      "injectFile": "DisplayBuddy",
+      "noSignTarget": true,
+      "tccutil": [
+        "All"
+      ]
+    {
       "packageName": "com.mac.utility.media.hub",
       "bridgeFile": "/Contents/MacOS/",
       "injectFile": "MediaCenter",
