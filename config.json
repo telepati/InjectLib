@@ -1311,6 +1311,7 @@
       "tccutil": [
         "All"
       ]
+    },
     {
       "packageName": "com.mac.utility.media.hub",
       "bridgeFile": "/Contents/MacOS/",
